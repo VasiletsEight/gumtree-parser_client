@@ -1,0 +1,21 @@
+.spinnerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+
+  &__spinner {
+    font-size: 30px !important;
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  &__text{
+    margin-top: 10px;
+    font-weight: bold;
+  }
+}

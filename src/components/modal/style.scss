@@ -1,0 +1,29 @@
+#modal-root {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+}
+
+.modalWrapper {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  &__background {
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  &__content {
+    position: relative;
+  }
+}
