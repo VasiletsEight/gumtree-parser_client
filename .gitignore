@@ -24,3 +24,7 @@ yarn-error.log*
 
 # Idea folder
 .idea/
+
+# dotenv environment variable files
+.env
+.env.*
