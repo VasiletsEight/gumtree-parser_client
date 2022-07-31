@@ -2,7 +2,7 @@ import axios from "axios";
 import {ApiResponseData, PostParserSendBody, PostParserSendReplay} from "../../modules/request/request.type";
 
 const axiosInstance = axios.create({
-    baseURL: process.env.REACT_APP_API_URL,
+    baseURL: "https://gumtree-parser-api.herokuapp.com",
     timeout: 50000,
 })
 
