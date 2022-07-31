@@ -26,7 +26,7 @@ const createExel = (fields: UserData[], filename: string): void => {
 
     const column = ["#", "Name", "Phone"];
     const headers = columnTransform(worksheet, column);
-    const rows = createRows(fields);
+    const rows = createRows(fields, true);
 
     const style: TableStyleProperties = {
         theme: 'TableStyleMedium2',
